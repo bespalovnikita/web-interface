@@ -1,0 +1,282 @@
+html {
+background-color:rgb(247,249,252);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 952px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.content__header {
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.header__leftside {
+    float: left;
+    width: 30%;
+}
+
+.header__menu {
+    width: 65%;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.header__menu_item {
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    font-size: 110%;
+}
+
+.header__menu_item:hover {
+    padding-bottom: 3px;
+    opacity: 1;
+    border: 5px solid #5c6bc0;
+    border-style: none none solid;
+    transition: border
+}
+
+.header__menu_item:active {
+    color:#5c6bc0;
+    text-decoration: none;
+}
+
+.header__menu_item-current {
+ opacity: 0.3;
+}
+
+.head-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.article-img-left {
+    float: left;
+}
+
+.main__demo {
+    margin-bottom: 30px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.2);
+}
+
+.i-do-button>A {
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    float: right;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #5c6bc0;
+    padding: 5px;
+}
+
+.i-do-button:hover {
+    opacity: 0.8;
+}
+
+.i-do-button:active {
+    opacity: 1;
+}
+
+.demo__text {
+    padding: 40px 0;
+    padding-left: 70px;
+    padding-right: 100px;
+    line-height: 1.5;
+}
+
+.default-paragraph {
+    font-size: 120%;
+}
+
+.big-coursive-paragraph {
+    font-size: 145%;
+    font-style: italic;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+    border: 5px solid #bdbdbd;
+    border-style: none none none solid;
+    padding-left: 15px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    font-size: 235%;
+    font-weight: bolder;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color:#bdbdbd;
+    font-size: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+}
+
+.read-more {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #5c6bc0;
+    font-weight: bold;
+    font-size: 125%;
+    background: none;
+    border: 1px solid #f7f9fc;
+}
+
+.read-more:active {
+    border: 1px solid #5c6bc0;
+    box-sizing: border-box;
+}
+
+.hash-tags {
+    text-align: right;
+    float: right;
+}
+
+.hash-tags>A {
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+    font-size: 120%;
+}
+
+.hash-tags>A:hover {
+    color: #5c6bc0;
+    text-decoration: underline;
+}
+
+.hash-tags>A:active {
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+.contact-form {
+    height:220px;
+    border: none;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.contact-form__name {
+    width: 45%;
+    height: 30px;
+    font-size: 130%;
+    margin-bottom: 50px;
+}
+
+.contact-form__mail {
+    width: 50%;
+    height: 30px;
+    font-size: 130%;
+    float: right;
+}
+
+.contact-form__subject {
+    width: 100%;
+    height: 30px;
+    font-size: 130%;
+    margin-bottom: 50px;
+}
+
+.contact-form__message {
+    width: 100%;
+    height: 90px;
+    font-size: 130%;
+    font-family: sans-serif;
+    /*border: none;*/
+}
+
+.main__footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    margin-top: 120px;
+    background-color: #5c6bc0;
+    min-width: 100%;
+    height: 530px;
+    text-align: center
+}
+
+.footer__logo {
+    margin: 50px 0px;
+    opacity: 0.5;
+}
+
+.footer__menu {
+    color: white;
+    font-size: 110%;
+}
+
+.footer__menu_item:hover {
+    opacity: 1;
+    text-decoration: underline;
+    border-style: none none solid;
+}
+
+.footer__menu_item:active {
+    color:white;
+    text-decoration: none;
+}
+
+.footer__team-link {
+    display:inline-block;
+    text-transform: none;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.footer__team-link:hover {
+    text-decoration: underline;
+}
+
+.footer__share:hover {
+    padding: 10px 6px 2px 6px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.footer__text {
+    color:rgba(255, 255, 255, 0.4);
+    margin: 40px 0;
+    padding: 50px 17%;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+}
+
+.copyright {
+    color:rgba(255, 255, 255, 0.4);
+}
