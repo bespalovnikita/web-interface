@@ -1,0 +1,65 @@
+
+.article__footer-hashtags {
+	text-align: right;
+}
+
+.article__footer-hashtags-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+.article__footer-hashtags-item:last-child {
+	margin: 0;
+}
+
+.hashtag__link {
+	text-decoration: none;
+	font: 400 15px / 50px Lato, serif;
+	color: #b3b3b3;
+}
+
+.hashtag__link:hover {
+	color: #5c6bc0;
+	text-decoration: underline;
+}
+
+.hashtag__link:active{
+	
+	text-decoration: none;
+}
+
+.article__picture-woman{
+	float:left;
+	margin: 0 23px 19px 0;
+}
+
+.article__text {
+	color: #333333;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.article__text_grey {
+	color: #999999;
+	font: 400 20px / 30px Lato, serif;
+	border-left: 4px solid #eeeeee;
+	padding-left: 22px;
+}
+
+.article__text_cursive-grey {
+	color: #808080;
+	font: italic 25px / 38px Lato, serif;
+}
+
+.article__link {
+	color: #5c6bc0;
+	font: 700 17px / 30px Lato, serif;
+}
+.picture{
+	position: relative;
+	top: -58px;
+	left: -99px;
+}

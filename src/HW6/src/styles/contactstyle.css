@@ -1,0 +1,97 @@
+
+.form__input_name {
+	background-color: rgb(247,249,252);
+	height: 50px;
+	width: 323px;
+	padding: 0 20px;
+	border-style: none;
+	color: #c2c2c2;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form__input_name:focus {
+	color: #333333;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	font: 400 20px / 30px Lato, serif;
+}
+.form__input_email {
+	background-color: rgb(247,249,252);
+	border-style: none;
+	height: 50px;
+	width: 323px;
+	padding: 0 20px;
+	color: #c2c2c2;
+	font: 400 20px / 30px Lato, serif;
+	float: right;
+}
+
+.form__input_email:focus {
+	color: #333333;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form__input_subject {
+	background-color: rgb(247,249,252);
+	border-style: none;
+	height: 50px;
+	width: 718px;
+	margin: 26px 0;
+	padding: 0 20px;
+	color: #c2c2c2;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form__input_subject:focus {
+	color: #333333;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form__input_message {
+	padding: 20px 20px 0 20px;
+	background-color: rgb(247,249,252);
+	border-style: none;
+	height: 130px;
+	width: 718px;
+	color: #c2c2c2;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form__input_message:focus {
+	color: #333333;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	font: 400 20px / 30px Lato, serif;
+}
+
+.form-submit {
+	text-transform: uppercase;
+    outline: none;
+	border: none;
+	background-color: #ffffff;
+    box-sizing: border-box;
+    font: 700 24px / 50px Lato, serif;
+	text-decoration: none;
+	color: #5c6bc0;
+    display: inline-block;
+    padding: 6px;
+	text-align: center;
+	float: left;
+}
+
+.form-submit:hover {
+    padding: 5px;
+	border: 1px solid #e6e6e6;
+}
+
+.form-submit:active {
+	border: 1px solid #5c6bc0;
+}
