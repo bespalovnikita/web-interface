@@ -1,0 +1,82 @@
+
+.title-text_padding {
+    text-transform: capitalize;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+.form-contact {
+    height: 55px;
+    padding-left: 30px;
+    border: 0;
+    background-color: #f7f9fc;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #bcbdbf;
+}
+.form-contact__email {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    float: right;
+    width: 330px;
+}
+.form-contact__name {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 330px;
+    display: inline;
+}
+.form-contact__message,
+.form-contact__subject {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 730px;
+    margin-top: 30px;
+}
+.form-contact__message {
+    padding-top: 15px;
+    margin-bottom: 6px;
+    height: 126px;
+}
+.form-send {
+    margin-left: -10px;
+    background: none;
+    border: 0;
+    text-decoration: none;
+    outline:none;
+}
+.block-content__pressbutton_size-24 {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .form-contact__name,
+    .form-contact__email {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .form-contact__message,
+    .form-contact__subject {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    .form-contact__message,
+    .form-contact__subject, 
+    .form-contact__name,
+    .form-contact__email {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}

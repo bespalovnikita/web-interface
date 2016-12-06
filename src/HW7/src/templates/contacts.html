@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% set activeTab = 4 %}
+        {% block main %}
+        <main>
+            <section class="block-content">
+                <article class="block-content__internal">
+                    <h2 class="title-text_padding">contact us</h2>
+                    <div class="main-text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.</div>
+                    <hr class="block-content__line">
+                    <form action="#">
+                        <input class="form-contact form-contact__name" id="1" tabindex="1" autofocus name="username" placeholder="Your Name">
+                        <input class="form-contact form-contact__email" id="2" tabindex="2" name="email" placeholder="Email">
+                        <input class="form-contact form-contact__subject" id="3" tabindex="3" name="text" placeholder="Subject">
+                        <textarea class="form-contact form-contact__message" id="4" tabindex="4" name="message" placeholder="Your Message"></textarea>
+                        <input class="form-send block-content__pressbutton_size-24" type="submit" value="send message">
+                    </form> 
+                </article>
+            </section>
+        </main>
+{% endblock %}
