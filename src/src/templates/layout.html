@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="Palo Alto, Explorer, Peak, Yosemite, Introspection, Democracy, Travel">
+        <meta name="description" content="blog about travel, observation, reflection">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Palo Alto
+    </title>
+        <link rel="shortcut icon" type="image/ico" href="./images/favicon32.ico" sizes="32x32"/>
+        <link href="./vendor/vendor.css" rel=stylesheet>
+        <link href=./styles/style.css rel=stylesheet>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body class="layout">
+        <header class="header">
+            <a href="index.html" class="logo">
+                <img srcset="./images/logo.png 1x, ./images/logo@2x.png 2x" wigth=157px height=33px alt="logo">
+            </a>
+            <nav class="floatright">
+                <!-- <div  class=menu__burger></div> -->
+                <ul class="menu">
+                    <li class="menu__element">
+                        <a href="index.html" class="menu__element-link  menu__element-link__gray menu__element__active">home</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#about" class="menu__element-link menu__element-link__gray">about</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#archive" class="menu__element-link menu__element-link__gray">archive</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="contacts.html" class="menu__element-link menu__element-link__gray">contact</a>
+                    </li>
+                    <li class="menu__element">
+                        <a href="#" class=menu__icon-search></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar js-sidebar floatright">
+                <form id="form-search" class="form-search" action="<anything-action>">
+                    <input name="search" placeholder="search" class="form-search__search-line">
+                    <input type="submit" value="" form="form-search" class="form-search__send">
+                </form>
+                <ul class="sidebar__menu menu">
+                    <li class="sidebar__element menu__element block">
+                        <a href="index.html" class="sidebar__element menu__element-link menu__element-link__white menu__element__active">home</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="#" class="sidebar__element menu__element-link menu__element-link__white">about</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="#" class="sidebar__element menu__element-link menu__element-link__white">archive</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="contacts.html" class="sidebar__element menu__element-link menu__element-link__white">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="./images/burger.png" wigth=36px height=26px alt="menu" class="js-burger menu__burger">
+        </header>
+        {% block main %}
+		{% endblock %}
+
+
+        
+        
+        
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="index.html" class="footer__logo">
+                    <img src="./images/logo-footer.png" wigth=157px height=33px alt="logo">
+                </a>
+                <nav class="">
+                    <ul class="menu">
+                        <li class="menu__element">
+                            <a href="index.html" class="menu__element-link menu__element-link__white menu__element__active">home</a>
+                        </li>
+                        <li class="menu__element">
+                            <a href="#" class="menu__element-link menu__element-link__white">about</a>
+                        </li>
+                        <li class="menu__element">
+                            <a href="#" class="menu__element-link menu__element-link__white">archive</a>
+                        </li>
+                        <li class="menu__element">
+                            <a href="contacts.html" class="menu__element-link menu__element-link__white">contact</a>
+                        </li>
+                        <li class="menu__element">
+                            <a href="#" class="menu-element__link menu__element-link__white">
+                                <img src="./images/search-footer.png" class="footer__icon-search" wigth=16px height=16px alt="icon-search">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="footer__text ">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.</p>
+                <p class="footer__text footer__text__larger">
+                    © 2015 - Palo Alto. All Rights Reserved. Designed &Developed by <span class="footer__text__select">PixelBuddha Team</span>
+                </p>
+                <ul>
+                    <li class="icon">
+                        <a href="#facebook">
+                            <img src="./images/facebook.png" wigth=22px height=22px alt="facebook-icon">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="#twitter">
+                            <img src="./images/twitter.png" wigth=24px height=20px alt="twitter-icon">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="#instagram">
+                            <img src="./images/instagram.png" wigth=22px height=22px alt="instagram-icon">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="#pinterest">
+                            <img src="./images/pinterest.png" wigth=22px height=22px alt="instagram-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="http://mozilla.github.io/nunjucks/files/nunjucks.min.js"></script>
+        <script src="./scripts/scripts.js"></script>
+    </body>
+</html>

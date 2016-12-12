@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block main %}
+        
+
+
+
+<main class="main">
+    <section class=section>
+        <div class="test">
+            <h1 class="article__text  article__text__h">Contact Us</h1>
+            <p class="article__text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.</p>
+            <form id="contact" class="form" action="<anything-action>">
+                <input name="firstname" placeholder="Your Name" tabindex="1" class="form__input-field">
+                <input name="email" placeholder="Email" tabindex="2" class="form__input-field form__input-field__right">
+                <input name="subject" placeholder="Subject" tabindex="3" class="form__input-field form__input-field__full-width">
+                <textarea id="message" placeholder="Your Message" tabindex="5" class="form__input-field form__input-field__full-width form__input-field__multiline"></textarea>
+                <input type="submit" value="send message" form="contact" class="article__buttom form__send">
+            </form>
+    </section>
+</main>
+{% endblock %}
+
+
+
+

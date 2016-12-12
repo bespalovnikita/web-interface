@@ -1,0 +1,133 @@
+.menu {
+    list-style: none;
+    margin-right: -17px;
+    margin-top: 6px;
+    padding-left: 0;
+}
+
+.menu__element {
+    text-transform: uppercase;
+    margin: 15px;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu__element-link {
+    text-decoration: none;
+    padding-bottom: 7px;
+    width: 100px;
+    transition-property: border-bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.menu__element-link:hover {
+    border-bottom: 3px solid #5c6bc0;
+}
+
+.menu__element-link:active {
+    color: #5c6bc0;
+}
+
+.menu__element-link__gray {
+    color: #333333;
+}
+
+.menu__element-link__white {
+    color: #ffffff;
+}
+
+.menu__element-link__white:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.menu__element-link__white:active {
+    color: #ffffff;
+    border-bottom: none;
+}
+
+.menu__icon-search {
+    background-image: url("../images/icon-search.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+}
+
+.menu__icon-search:hover {
+    background-image: url("../images/icon-search-hover.png");
+}
+
+.menu__element__active {
+    opacity: 0.4;
+}
+
+.menu__burger {
+    display: none;
+    background-image: url("./images/burger.png");
+    width: 36px;
+    height: 26px;
+    float: right;
+}
+
+.sidebar {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: -320px;
+    width: 320px;
+    height: 800px;
+    background-color: #5c6bc0;
+}
+
+.block {
+    display: block;
+}
+
+.burger__icon-search {
+    background-image: url("../images/icon-search.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+}
+
+.sidebar__element {
+    display: block;
+    margin: 25px;
+}
+
+.floatright {
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu__element-link__gray {
+        display:none;
+    }
+
+    .menu__icon-search {
+        display: none;
+    }
+
+    .menu__burger {
+        display: block;
+    }
+
+    .floatright {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu__element {
+        display: block;
+    }
+}

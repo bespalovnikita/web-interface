@@ -1,0 +1,23 @@
+.tag {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.302);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 32px;
+    display: inline;
+}
+
+.tag:hover {
+    color: #5c6bc0;
+    text-decoration: underline;
+}
+
+.tag:active {
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .tag {
+    }
+}

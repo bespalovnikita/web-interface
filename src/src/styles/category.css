@@ -1,0 +1,48 @@
+.category {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: -32px;
+    right: -109px;
+    width: auto;
+    background-color: #5c6bc0;
+    color: #f3f3f3;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding : 8px 10px 8px 10px;
+    margin-bottom: 10px;
+    float: right;
+    transition-property: padding;
+    transition-duration: 0.09s;
+    transition-timing-function: linear;
+}
+
+.category:hover {
+    padding : 10px 11px 10px 11px;
+    background-color: #6c79c6;
+}
+
+.category:active {
+    background-color: #5360ac;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+    .category {
+        font-size: 18px;
+        top: -50px;
+        right: -50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+    .category {
+        right: -25px;
+    }
+}

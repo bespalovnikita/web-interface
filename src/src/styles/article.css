@@ -1,0 +1,120 @@
+.article {
+    padding: 0;
+    width: 100%;
+}
+
+.article__text {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+}
+
+.article__text__h {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 35px;
+    line-height: 1.25;
+    padding-bottom: 35px;
+    border-bottom: #eeeeee solid 2px;
+}
+
+.article__text__date {
+    font-size: 14px;
+    color: rgb(189, 189, 189);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article__buttom {
+    font-size: 21px;
+    color: rgb(92, 107, 192);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding: 17px 33px 19px 33px;
+    margin-top: 8px;
+    margin-left: -33px;
+    display: inline;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.article__buttom:hover {
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+}
+
+.article__buttom:active {
+    border: 1px solid #7d89cd;
+    box-sizing: border-box;
+}
+
+.article__text__quote {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.502);
+    font-style: italic;
+    line-height: 1.52;
+    margin-bottom: 25px;
+}
+
+.article__text__insert {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.5;
+    padding-left: 20px;
+    border-left: 3px solid rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+}
+
+.article__tag {
+    float: right;
+    display: inline;
+}
+
+.image-margin {
+    margin: 10px;
+    float: left;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+    .article__text {
+        font-size: 18px;
+        letter-spacing: normal;
+    }
+
+    .article__text__h {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .article__buttom {
+        display: inline-block;
+    }
+
+    .article__tag {
+        float: none;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .image-margin {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .article__buttom {
+        margin-left: -20px;
+        padding: 17px 20px 19px 20px;
+    }
+}
